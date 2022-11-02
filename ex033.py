@@ -1,0 +1,7 @@
+n1 = float(input('digite um número:'))
+n2 = float(input('digite outro número:'))
+n3 = float(input('digite outro número:'))
+print('-' * 30)
+mxo = max(n1, n2, n3)
+mini = min(n1, n2, n3)
+print(f'o maior número é {mxo} e o menor é {mini}')

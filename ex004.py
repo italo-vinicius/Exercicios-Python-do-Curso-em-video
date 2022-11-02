@@ -1,0 +1,6 @@
+alg = input('digite algo: ')
+print('\033[1;31;40mClassificação do termo:\033[m ', type(alg))
+print('\033[1;32;40mtem apenas números?\033[m ', alg.isnumeric())
+print('\033[1;35;40mtem apenas letras ou apenas números: ?\033[m ', alg.isalnum())
+print('\033[1;33;40mtem apenas letras?\033[m ', alg.isalpha())
+print('\033[1;34;40mtem apenas espaços?\033[m ', '\033[1;34;40m', alg.isspace())

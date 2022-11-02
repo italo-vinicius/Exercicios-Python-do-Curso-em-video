@@ -1,0 +1,13 @@
+pt = int(input('primeiro termo da PA: '))
+r = int(input('razão: '))
+termo = pt
+cont = 1
+total = 0
+mais = 10
+while mais != 0:
+    total += mais
+    while cont <= total:
+        print(termo, end="-")
+        cont += 1
+        termo += r
+    mais = int(input('quantos termos vc quer a mais?ou digite 0 para sair: '))
