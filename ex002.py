@@ -1,6 +1,8 @@
-nome = input('digite seu nome:')
-print(f'olá meu querido {nome}')
+n=4
 
-idade = input('digite quantos anos você tem: ')
-print(f'nossa, \033[4;35;42mvocê está novo\033[m. tem apenas {idade} anos!!!')
+def f1():
+    n=n**4
+    print(n)
 
+x = f1()
+print(x)
